@@ -21,3 +21,121 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+.body {
+    /* background-color: gray; */
+}
+
+.zbozi {
+    display: flex;
+    width: 670px;
+    height: 440px;
+    margin: 100px auto;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #dcdcdc;
+}
+
+.vizual {
+    padding: 30px;
+    width: 335px;
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+
+}
+
+.slogan {
+    color: white;
+    font-size: 16px;
+    font-weight: medium 500;
+    padding-top: 10px;
+}
+
+.bota {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.cenovka {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    color: white;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: medium 500;
+    float: right;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.detaily {
+    padding: 30px;
+    width: 335px;
+    background-color: white;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: medium 500;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.produkt {
+    color: #959595;
+}
+
+.popis {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.parametr {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 30px;
+    border-top: 2px #06d7c1 solid;
+}
+
+.velikosti {
+    padding-left: 0px;
+}
+
+.velikosti li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.vybrana {
+    color: red;
+    border-radius: 50%;
+    border: 1px red solid;
+}
+
+.tlacitko {
+    text-transform: uppercase;
+    background-color: #f15f42;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+}
